@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useMemo } from 'react';
-import { supabase } from '../lip/supabase';
+import { supabase } from '@/lip/supabase';
 
 interface PerfilUsuario {
   id: string;
